@@ -1,0 +1,24 @@
+{
+  "name": "ccc504-lab-4",
+  "version": "1.0.0",
+  "description": "\"Lab 4 para la clase de Tecnologias Emergentes\"",
+  "main": "server.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanz/ccc504-lab-4.git"
+  },
+  "author": "Renan Zelaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanz/ccc504-lab-4/issues"
+  },
+  "homepage": "https://github.com/renanz/ccc504-lab-4#readme"
+}
