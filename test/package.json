@@ -1,0 +1,15 @@
+{
+  "name": "ccc504-lab-4",
+  "version": "1.0.0",
+  "description": "Laboratorio 4 para la clase de Tecnologias Emergentes. uso de paquete de npm",
+  "main": "test.js",
+  "dependencies": {
+    "ccc504-lab-4": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renan Zelaya",
+  "license": "ISC"
+}
