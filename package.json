@@ -1,9 +1,12 @@
 {
   "name": "ccc504-lab-4",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "description": "\"Lab 4 para la clase de Tecnologias Emergentes\"",
   "main": "server.js",
   "dependencies": {
+    "express": "^4.16.4",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.2.0",
     "request": "^2.88.0"
   },
   "devDependencies": {},

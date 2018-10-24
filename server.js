@@ -1,22 +1,9 @@
-var http = require("http");
-var url = require("url");
-var request = require("request");
+var fetch = require('node-fetch');
 
-options = {
-  url: "https://api.github.com/users/renanz",
-  headers: {
-    "User-Agent": "renanz"
-  }
+exports.getUsers = function (){
+    return new Promise((resolve, reject) => {
+        fetch('https://jsonplaceholder.typicode.com/todos')
+            .then(response => response.json())
+            .then(json => resolve(json));
+    })
 };
-
-txt = "";
-
-http
-  .createServer(function(req, res) {
-    res.writeHead(200, { "Content-Type": "application/json" });
-    request.get(options).on("response", function(response) {
-      res.write(JSON.stringify(response));
-      res.end();
-    });
-  })
-  .listen(8080);
